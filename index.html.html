@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Birthday Website</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Correctly linking the CSS file -->
+</head>
+<body>
+  <div class="background">
+    <!-- Balloons will be generated here -->
+  </div>
+
+  <div class="container">
+    <h1>Welcome</h1>
+    <form>
+      <label for="name">Enter your name:</label><br>
+      <input type="text" id="name" placeholder="Your Name"><br><br>
+      <label for="age">Enter your age:</label><br>
+      <input type="number" id="age" placeholder="Your Age"><br><br>
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+
+  <!-- Pop effect sound -->
+  <audio id="popSound" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+
+  <!-- Only one script tag, placed before the closing body tag -->
+  <script src="script.js"></script>
+</body>
+</html>
